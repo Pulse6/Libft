@@ -35,6 +35,6 @@ char				**ft_strsplit(char const *s, char c)
 			s2[i][k++] = s[j++];
 		s2[i][k] = '\0';
 	}
-	s2[i] = 0;
+	s2[i] = NULL;
 	return (s2);
 }
